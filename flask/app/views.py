@@ -13,4 +13,9 @@ def Services():
 
 @app.route('/Menu.html')
 def Menu():
-    return Menuz-templates("Menu.html")
+    return Menu-templates("Menu.html")
+
+
+if __name__ == "__main__":
+    app.run(debug=TRue)
+
